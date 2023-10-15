@@ -15,8 +15,6 @@ $cv_downlod_path = get_template_directory_uri() . '/assets/img/perfil.jpg';
             Smith <b> Matthew </b>
         </h1>
         <h3 class="home__profession">Web Developer</h3>
-
-        <!-- Button to generate and download the pdf. Available for desktop. -->
         <div>
             <a download="" href="<?php echo $cv_downlod_path; ?>" class="home__button-movil">Download</a>
         </div>
@@ -33,3 +31,8 @@ $cv_downlod_path = get_template_directory_uri() . '/assets/img/perfil.jpg';
         </span>
     </div>
 </div>
+<!-- Theme change button  -->
+<i class="bx bx-moon change-theme" title="theme" id="theme-button"></i>
+
+<!-- Button to generate and download the pdf. Available for desktop. -->
+<i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>

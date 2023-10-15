@@ -34,13 +34,17 @@
 
     <!--========== EDUCATION ==========-->
     <section class="education section" id="education">
-
+        <?php
+        include('education.php');
+        ?>
     </section>
 
 
     <!--========== SKILLS  ==========-->
     <section class="skills section" id="skills">
-
+        <?php
+        include('skills.php');
+        ?>
     </section>
 
 </div>

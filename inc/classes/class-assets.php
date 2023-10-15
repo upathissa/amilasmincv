@@ -47,13 +47,16 @@ class Assets
     public function register_scripts()
     {
         $main_js = AMILASMINCV_DIR_URI . '/assets/js/main.js';
+        $html2pdf = AMILASMINCV_DIR_URI . '/assets/js/html2pdf.bundle.min.js';
         // $swiper_js = 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js';
 
         wp_register_script('main', $main_js, [], filemtime(AMILASMINCV_DIR_PATH . '/assets/js/main.js'), true);
+        wp_register_script('html2pdf', $html2pdf, [], 0.9, true);
         // wp_register_script('swiper', $swiper_js, [], 10, ['strategy'  => 'defer', 'in_footer' => true]);
 
         // Enqueue Scripts.
         wp_enqueue_script('main');
+        wp_enqueue_script('html2pdf');
         // wp_enqueue_script('swiper');
     }
 }

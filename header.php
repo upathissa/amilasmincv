@@ -16,7 +16,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class() ?>>
+<body <?php body_class(); ?> >
     <?php
     if (function_exists('wp_body_open')) {
         wp_body_open();

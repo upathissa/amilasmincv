@@ -29,6 +29,4 @@ get_header();
     </div>
 </main>
 
-<!--========== SCROLL TOP ==========-->
-
 <?php get_footer(); ?>

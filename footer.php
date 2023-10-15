@@ -15,7 +15,7 @@
 
 <!--==================== SCROLL TOP ====================-->
 <?php
-// get_template_part('template-parts/footer/scrolltop');
+get_template_part('template-parts/footer/scrolltop');
 ?>
 <?php wp_footer(); ?>
 </body>
